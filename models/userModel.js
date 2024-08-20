@@ -12,7 +12,7 @@ const userSchema=new mongoose.Schema({
     type:String
   }
 
-},{timestamps:true})
+},{timestamps:true}) //ffgh
 
 
 const User=mongoose.model("user",userSchema);
